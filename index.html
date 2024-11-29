@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Sign-Up</title>
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div style="width: 100%; max-width: 600px; margin: 0 auto; padding: 30px; border: 1px solid #ddd; border-radius: 10px; background-color: #f7f7f7;">
+        <h2 style="text-align: center; color: #3b5998;">Facebook</h2>
+        <h3 style="text-align: center; color: #333;">Sign Up</h3>
+
+        <!-- Sign-Up Form -->
+        <form action="#" method="POST">
+            <!-- Name Fields -->
+            <div style="display: flex; gap: 10px;">
+                <div style="flex: 1;">
+                    <label for="firstName">First Name</label><br>
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div style="flex: 1;">
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+            </div>
+
+            <!-- Email and Password Fields -->
+            <div style="margin-top: 15px;">
+                <label for="email">Mobile number or email</label><br>
+                <input type="email" id="email" name="email" placeholder="Email or Mobile Number" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <div style="margin-top: 15px;">
+                <label for="password">New Password</label><br>
+                <input type="password" id="password" name="password" placeholder="New Password" required style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <!-- Birthday Section -->
+            <div style="margin-top: 15px;">
+                <label for="birthday">Birthday</label><br>
+                <select id="birthday-day" name="birthday-day" required style="padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <!-- Add more options for days -->
+                </select>
+                <select id="birthday-month" name="birthday-month" required style="padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                    <option value="">Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <!-- Add more options for months -->
+                </select>
+                <select id="birthday-year" name="birthday-year" required style="padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;">
+                    <option value="">Year</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <!-- Add more options for years -->
+                </select>
+            </div>
+
+            <!-- Gender Section -->
+            <div style="margin-top: 15px;">
+                <label>Gender</label><br>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="custom" name="gender" value="custom" required>
+                <label for="custom">Custom</label>
+            </div>
+
+            <!-- Submit Button -->
+            <div style="margin-top: 20px; text-align: center;">
+                <button type="submit" style="background-color: #3b5998; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Sign Up</button>
+            </div>
+        </form>
+
+        <!-- Already have an account -->
+        <p style="text-align: center; margin-top: 20px; color: #555;">Already have an account? <a href="#" style="color: #3b5998;">Log In</a></p>
+    </div>
+
+</body>
+                  </html>
